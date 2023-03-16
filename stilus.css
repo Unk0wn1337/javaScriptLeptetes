@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: wheat;
+}
+
+main {
+    margin: auto;
+    max-width: 750px;
+    color: white;
+}
+
+
+section{
+    display: grid;
+    grid-template-columns: 50px auto 50px ;
+
+}
+
+#nagykep {
+    width: 100%;
+    display: grid;
+}
+
+article div{
+    display: inline;
+    grid-template-columns: 2fr 2fr 2fr;
+    margin-top: 10px;
+}
+article div img{
+    margin-top: 10px;
+    
+}
